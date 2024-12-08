@@ -113,9 +113,7 @@ p {
 .nav-item {
   padding: 0 18px;
 }
-.navbar-toggler{
-  border: 5px sold red;;
-}
+
 
 
 .nav-link {
@@ -482,7 +480,7 @@ p {
 }
 
 .pricing-column {
-  padding: 3% 2%;
+  padding: 3% 1%;
   
 }
 
@@ -603,6 +601,10 @@ footer a{
   padding: 4rem;
 
 }
+
+.card-body p{
+  font-size: 1rem;
+}
 .promotion-text{
   padding: 2rem;
   display: flex;
@@ -655,6 +657,8 @@ footer a{
     }
       }
 
+  
+
   /* .promotion{
     background-color: blue;
     display: flex;
@@ -693,7 +697,44 @@ footer a{
   column-gap: 20px;
 }
 
+.testimonial-text {
+
+font-size: 1rem;
+line-height: 1.5;
+
+}
+
+.testimonial-image {
+width: 20%;
+
+}
+
+#testimonials p{
+  font-size: 1rem;
 
   
+}
+.card p {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  
+}
+/* .card-body {
+  padding: 2rem 1rem;
+   */
+
+.pricing-column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pricing{
+  padding: 50px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
 
 }
