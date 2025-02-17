@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400;700;900&family=Poppins:wght@100;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Ubuntu", sans-serif;
+  overflow-x: hidden;
+ 
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: rgb(40, 40, 40);
+  padding-top: 1rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+#back-btn {
+  list-style: none;
+  text-decoration: none;
+}
+
+#back-btn img {
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #d34eff;
+  color: #fff;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  width: 50px;
+  transition: all 0.5s ease;
+}
+ .icon {
+  border-radius: 50%;
+  padding: 13px;
+  background-color: #d34eff;
+  color: #fff;
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  width: 30px;
+  transition: all 0.5s ease;
+}
+#back-btn img:hover  {
+  background-color: #fff;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#back-btn .icon:hover  {
+  background-color: #fff;
+  color: #d34eff;
+  border-radius: 50%;
+
+}
+
+main {
+  width: 100%;
+  height: auto;
+   background-color:#fff;
+  
+  }
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+/* Add this CSS to initially hide the links */
+
+
+
+
+
+.button-29 {
+  align-items: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 6px;
+  box-shadow: #0c0c0c 1.95px 1.95px 2.6px;
+  background-color: #f8d8ed;
+  box-sizing: border-box;
+  border-style: none;
+  color: black;
+  font-size: 3.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  height: 40px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding: 1.8rem 4rem;
+  margin-top: 1.5rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.button-29:focus {
+  box-shadow: #e46be0 0 0 0 1.5px inset, #2d234266 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #2a022e 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  background-image: radial-gradient(100% 100% at 100% 0, #fff 0, #f6f1f1 100%);
+  transform: translateY(-2px);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.button-29:active {
+  box-shadow: #e706ef 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.content p {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+
+/* .navigation:hover a {
+  filter: blur(1px);
+} */
+
+/* .navigation a:hover {
+  filter: blur(0);
+} */
+
+section {
+  padding: 23px 50px;
+}
+
+
+
+.contact {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.hero .content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero h1 {
+  display: inline-block;
+  text-align: center;
+  font-size: 75px;
+  font-weight: 900;
+  color: black;
+  text-shadow: 20px 20px 20px rgba(167, 161, 161, 0.6);
+}
+
+
+
+.contact {
+  /* height: 100vh; */
+  flex-direction: row;
+  color: #1b1616;
+  gap: 20px;
+  z-index: 90;
+  
+}
+
+.left-contact,
+.right-contact {
+  
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-contact p,
+.left-contact small {
+  word-spacing: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  padding: 0 20px;
+  margin-top: 40px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.left-contact h4 {
+  font-size: 18px;
+  margin-top: 32px;
+}
+
+.left-contact small {
+  margin-top: 0;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+.right-contact form {
+
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.5),
+    5px -5px 10px rgba(0, 0, 0, 0.1);
+  background: #f602ff40;
+}
+
+.right-contact form input {
+  padding: 10px 20px;
+  margin-top: 30px;
+  font-size: 1.1rem;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.right-contact button {
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 20px;
+  background: #d34eff;
+  margin-top: 40px;
+  color: #e4e4e4;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}
+
+.right-contact button:hover{
+  background: #d47ccd;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 900px) {
+  .content h1 {
+    font-size: 60px;
+   
+  }
+  p{
+   font-size: 1rem;
+  }
+  .contact {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-contact {
+    margin-top: 50px;
+  }
+
+  .right-contact h2 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}

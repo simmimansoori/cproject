@@ -1,168 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Global Educational Services</title>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="public/images/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
-      rel="stylesheet"
-    />
+  <title>Global Educational Services</title>
 
-    <!-- CSS Stylesheets -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="src/style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet" />
 
-    <!-- Font Awesome -->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v6.7.1/js/all.js"
-    ></script>
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="src/style.css" />
 
-    <!-- Bootstrap Scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v6.7.1/js/all.js"></script>
 
-  <body>
-    <section class="colored-section" id="title">
-      <div class="container-fluid">
-        <!-- Nav Bar -->
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
-        <nav class="navbar navbar-expand-lg navbar-white">
-          <a href="">
-            <img
-              class="nav_logo"
-              src="public/images/logo4.png"
-              alt="global_logo"
-              width="140px"
-            />
-          </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarTogglerDemo02"
-          >
-            <i class="icon fas fa-bars fa-1x"></i>
-          </button>
 
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery">Gallery</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+</head>
 
-        <!-- Title -->
+<body>
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
 
-        <div class="row">
-          <div class="col-lg-6">
-            <h1 class="big-heading text-focus-in">
-              Global Educational Services: Excellence start here!🌟
-            </h1>
+      <nav class="navbar navbar-expand-lg navbar-white row">
+        <a href="" class="col d-flex">
+          <img class="nav_logo" src="public/images/logo4.png" alt="global_logo" width="140px" />
+        </a>
 
-            <p class="text-focus-in">
-              Explore Global Learning with Complimentary Career Guidance &
-              Counseling! 🌍✨ Unlock Your Potential Now! 🚀
-            </p>
-            <!-- HTML !-->
-             <a href="#" target="_blank">
-            <button class="button-29 text-focus-in" role="button">
+
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <i class="icon fas fa-bars fa-1x"></i>
+        </button>
+
+
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading text-focus-in">
+            Global Educational Services: Excellence start here!🌟
+          </h1>
+
+          <p class="text-focus-in">
+            Explore Global Learning with Complimentary Career Guidance &
+            Counseling! 🌍✨ Unlock Your Potential Now! 🚀
+          </p>
+          <!-- HTML !-->
+
+          <div class="call-to-action d-flex justify-content-between ">
+
+            <button class="button-29 text-focus-in" id="btnOpenForm" role="button">
+              <!-- <i class="icon fas fa-phone fa-beat fa-xl p-2"></i> -->
               Join Now
             </button>
-          </a>
-          </div>
 
-          <div class="col-lg-6">
-            <img
+            <button class="button-29 text-focus-in" id="btnOpenForm1" role="button">
+              <!-- <i class="icon fas fa-phone fa-beat fa-xl p-2"></i> -->
+              Book a call
+            </button>
 
-              class="title-image text-focus-in position-right-45"
-              src="public/images/student_1.webp"
-              alt="student"
-            />
+
           </div>
         </div>
-       
-      </div>
-    </section>
 
-    <!-- mid-section -->
-    
-    
-      
-      <div class=" promotion-container ">
-       
-          <div class="promotion-video">
-            <iframe
-              width="550"
-              height="300"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              src="https://www.youtube.com/embed/iwKNs4JNvVw?controls=1"
-            >
-            </iframe>
+        <div class="col-lg-6">
+          <img class="title-image text-focus-in position-right-45" src="public/images/student_1.webp" alt="student" />
+        </div>
+      </div>
+
+
+
+      <button class="call-us " id="btnOpenForm2">
+        <i class="icon fas fa-phone fa-beat fa-xl p-2"></i>
+      </button>
+
+
+
+    </div>
+  </section>
+  
+  <div class="form-popup-bg">
+    <div class="form-container">
+      <button id="btnCloseForm" class="close-button">X</button>
+      <h3>Unlock your potential now!</h3>
+
+      <form action="./backend/src/models/contact.js" method="POST">
+        <div class="form-content">
+          <div class="form-group">
+            <i class="fa-solid fa-user fa-2xl mr-1 " style="color: #fbb1e1; width: 30px;
+    height: 25px;"></i>
+            <input type="text" class="form-control" placeholder="Name" name="name"/>
           </div>
-      
-        
-        
-            <div class="promotion-text ">
-              <p>
-                Unleash your academic prowess with our Student Consultancy! Let
-                us guide you to success and personal growth.
-              </p>
-            </div>
-         
+
+          <div class="form-group">
+            <i class="fa-solid fa-location-dot fa-2xl mr-1" style="color: #fbb1e1;"></i>
+            <input type="tel" id="mobile_code" class="form-control" name="phone">
+          </div>
+
+          <div class="form-group">
+
+            <i class="fa-solid fa-envelope fa-2xl " style="color: #fbb1e1; width: 30px;
+    height: 25px;"></i>
+            <input class="form-control" type="text" placeholder="E-Mail Address" name="email"/>
+          </div>
+          <div class="form-group">
+
+            <i class="fa-solid fa-question fa-2xl mr-1" style="color: #fbb1e1;"></i>
+            <input class="form-control" type="text" placeholder="Interested In ?" name="intrest" />
+          </div>
+          <div class="form-group">
+            <i class="fa-solid fa-location-dot fa-2xl" style="color: #fbb1e1;"></i>
+            <input class="form-control" type="text" placeholder="Your City"  name="city"/>
+          </div>
        
+          <button class="button-29 book" value="Contact">Book a Call</button>
+   
+        </div>
+      </form>
+    </div>
+  </div>
+
+<!-- <div class="form-popup-bg"> -->
+  <!-- <div class="noti-popup-bg hide "> -->
+    <!-- <div class="notification form-container"> -->
+      <div class="notidiv hide">
+        <button id="closeButton" class="close-button">X</button>
+       
+     
+        <img class="notification-image" src="public/images/6770875555.jpg" alt="notification-image" style="width:90%;">
+
+        <!-- <h3>Unlock your potential now!</h3> -->
+        <p style="color: #fff;" > Don't Leave! Book A Call for Career Guidance & Counseling! </p>
+
+        <button class="button-29 text-focus-in" id="btnOpenForm1" role="button">
+
+          Book a call
+        </button>
       </div>
+    <!-- </div> -->
+
     
+  <!-- </div> -->
 
-    <!-- Features -->
+  <!-- mid-section -->
+
+  <div class="marquee  marquee--hover-pause">
+    <ul class="marquee__content">
+      <ul>
+        <li id="studentname"> Abhik baruah </li>
+        <li id="studentscore">Arizona State University</li>
+      </ul>
+      <ul>
+        <li id="studentname"> Mariam Behlam </li>
+        <li id="studentscore">University of New heaven</li>
+      </ul>
+      <ul>
+        <li id="studentname"> Manpreet kaur brar </li>
+        <li id="studentscore">New England College </li>
+
+      </ul>
+    
+    <ul>
+      <li id="studentname"> Zeenat Sayed </li>
+      <li id="studentscore">Bowling green State University </li>
 
 
-    <!-- Testimonials -->
+    </ul>
+    <ul>
+      <li id="studentname"> Snehal bankar </li>
+      <li id="studentscore">North Eastern University </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Sameerjeet chabra </li>
+      <li id="studentscore">Arizona State University </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Kaif pathan </li>
+      <li id="studentscore"> De Anza college (Community college) </li>
 
-    <!-- <div class="sk-ww-google-reviews" data-embed-id="25496599"></div>
+      </li>
+    </ul>
+    <ul>
+
+      <li id="studentname"> Priyanka zanj </li>
+      <li id="studentscore">University of New heaven </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Ahmed Kharodia </li>
+      <li id="studentscore">University of New heaven </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Meet Bhanushali </li>
+      <li id="studentscore">North Eastern University </li>
+    </ul>
+    <ul>
+
+      <li id="studentname"> Shoaib shaikh </li>
+      <li id="studentscore"> New York film academy </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Mansi bavkar </li>
+      <li id="studentscore">Manhattan College </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Ranjeet Singh sekhon </li>
+      <li id="studentscore">Middle Georgia State University </li>
+    </ul>
+  </ul>
+    <!-- Mirrors the content above -->
+    <ul class="marquee__content" aria-hidden="true">
+      <ul>
+        <li id="studentname"> Abhik baruah </li>
+        <li id="studentscore">Arizona State University</li>
+      </ul>
+      <ul>
+        <li id="studentname"> Mariam Behlam </li>
+        <li id="studentscore">University of New heaven</li>
+      </ul>
+      <ul>
+        <li id="studentname"> Manpreet kaur brar </li>
+        <li id="studentscore">New England College </li>
+
+      </ul>
+    
+    <ul>
+      <li id="studentname"> Zeenat Sayed </li>
+      <li id="studentscore">Bowling green State University </li>
+
+
+    </ul>
+    <ul>
+      <li id="studentname"> Snehal bankar </li>
+      <li id="studentscore">North Eastern University </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Sameerjeet chabra </li>
+      <li id="studentscore">Arizona State University </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Kaif pathan </li>
+      <li id="studentscore"> De Anza college (Community college) </li>
+
+      </li>
+    </ul>
+    <ul>
+
+      <li id="studentname"> Priyanka zanj </li>
+      <li id="studentscore">University of New heaven </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Ahmed Kharodia </li>
+      <li id="studentscore">University of New heaven </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Meet Bhanushali </li>
+      <li id="studentscore">North Eastern University </li>
+    </ul>
+    <ul>
+
+      <li id="studentname"> Shoaib shaikh </li>
+      <li id="studentscore"> New York film academy </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Mansi bavkar </li>
+      <li id="studentscore">Manhattan College </li>
+    </ul>
+    <ul>
+      <li id="studentname"> Ranjeet Singh sekhon </li>
+      <li id="studentscore">Middle Georgia State University </li>
+    </ul>
+  </ul>
+
+  </div>
+
+
+
+  <div class=" promotion-container ">
+
+    <div class="promotion-video">
+      <iframe width="550" height="300" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen src="https://www.youtube.com/embed/iwKNs4JNvVw?controls=1">
+      </iframe>
+    </div>
+
+
+
+    <div class="promotion-text ">
+      <p>
+        Unleash your academic prowess with our Student Consultancy! Let
+        us guide you to success and personal growth.
+      </p>
+    </div>
+
+  </div>
+
+  <h1 class="section-heading " style="margin-top: 5%;">
+    Follow Us On Instagram
+  </h1>
+  <div class="promotion-container white ">
+
+    <div class=" promotion-image"  >
+      <img src="public/images/Marketing-pana.png" alt="" style="width:80%;">
+    </div>
+
+    <div class="promotion-text instaa" >
+
+      <script async src="https://www.instagram.com/embed.js"></script>
+      <blockquote 
+      class="instagram-media"
+      data-instgrm-permalink="https://www.instagram.com/international_studies_mumbai2/" 
+      data-instgrm-version="14">
+
+      </blockquote>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+  <!-- Features -->
+
+
+  <!-- Testimonials -->
+
+  <!-- <div class="sk-ww-google-reviews" data-embed-id="25496599"></div>
     <script
       src="https://widgets.sociablekit.com/google-reviews/widget.js"
       defer
     ></script> -->
 
-      <!-- Pricing -->
+  <!-- Pricing -->
 
-      <!-- <div class="custom-shape-divider-bottom-1733521595">
+  <!-- <div class="custom-shape-divider-bottom-1733521595">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -186,172 +395,258 @@
         </svg>
       </div> -->
 
-      <section class="white-section" id="pricing">
-        <h2 class="section-heading">Our Services</h2>
-        <p>
-          Please <a href="#"  target="_blank">  click here </a> to see all the services provided by us </p>
-  
-        <div class="row">
-          <div class="pricing-column col-lg-4 col-md-6">
-            <div class="card">
-              <div class="card-header">
-                <h3>Test Preparation</h3>
-                
-              </div>
-              <div class="card-body">
-                <img class="services-icon"  src="public/images/prepration.png" alt="">
-                 <p>
-                  📚 Ace your exams with confidence! 🌟 Prepare for GRE, GMAT,
-                  IELTS, SAT, TOEFL with our expert guidance. Unlock your academic
-                  dreams with ease! #ExamSuccess 🎓
-                </p>
-             
-              </div>
-            </div>
+  <section class="white-section pink" id="pricing">
+    <h1 class="section-heading">Our Services</h1>
+    <p>
+      Please <a href="#" target="_blank"> click here </a> to see all the services provided by us </p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Test Preparation</h3>
+
           </div>
-  
-          <div class="pricing-column col-lg-4 col-md-6">
-            <div class="card">
-              <div class="card-header">
-                <h3>Scholarships</h3>
-              </div>
-              <div class="card-body">
-           
-                <img class="services-icon" src="public/images//scholarship.png" alt="">
-                <p>
-                  🌟 Unlock your dreams of studying abroad with scholarships! 💡
-                  Overcome financial barriers and achieve academic greatness with
-                  GES. Let us help to get #ScholarshipSuccess 🌍📚
-                </p>
-              </div>
-            </div>
+          <div class="card-body">
+            <img class="services-icon" src="public/images/prepration.png" alt="">
+            <p>
+              📚 Ace your exams with confidence! 🌟 Prepare for GRE, GMAT,
+              IELTS, SAT, TOEFL with our expert guidance. Unlock your academic
+              dreams with ease! #ExamSuccess 🎓
+            </p>
+
           </div>
-  
-          <div class="pricing-column col-lg-4">
-            <div class="card">
-              <div class="card-header">
-                <h3>Applications</h3>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Scholarships</h3>
+          </div>
+          <div class="card-body">
+
+            <img class="services-icon" src="public/images//scholarship.png" alt="">
+            <p>
+              🌟 Unlock your dreams of studying abroad with scholarships! 💡
+              Overcome financial barriers and achieve academic greatness with
+              GES. Let us help to get #ScholarshipSuccess 🌍📚
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Applications</h3>
+          </div>
+          <div class="card-body">
+            <img class="services-icon" src="public/images/application.png" alt="">
+
+            <p>
+              🌟 Secure your visa! Our expert guidance ensures smooth
+              documentation and successful outcomes. 🎓 Let's pave the way to
+              your international academic journey! #VisaSuccess 📃👍
+            </p>
+            </h3>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <section class="white-section" id="pricing" style="padding-top: 15px;">
+    <h1 class="section-heading ">Our Destinations</h1>
+    
+ 
+        <div class="container">
+    
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/america.jpg" alt="">
+                    <div class="country">
+                        <span>America</span>
+                    </div>
                 </div>
-                <div class="card-body">
-                  <img class="services-icon"  src="public/images/application.png" alt="">
-                
-                  <p>
-                    🌟 Secure your visa! Our expert guidance ensures smooth
-                    documentation and successful outcomes. 🎓 Let's pave the way to
-                    your international academic journey! #VisaSuccess 📃👍
-                  </p></h3>
-              </div>
-            
-              </div>
+    
+            </div>
+            <div class="item"> 
+                <div class="desti-image"><img src="/SIMRAN/image/canada.jpg" alt="">
+                    <div class="country">
+                        <span>Canada</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/australia.jpg" alt="">
+                    <div class="country">
+                        <span>Australia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/uk.jpg" alt="">
+                    <div class="country">
+                        <span>United Kingdom</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/france.jpg" alt="">
+                    <div class="country">
+                        <span>France</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/germany.jpg" alt="">
+                    <div class="country">
+                        <span>germany</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/mauritius.jpg" alt="">
+                    <div class="country">
+                        <span>mauritius</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/spain.jpg" alt="">
+                    <div class="country">
+                        <span>spain</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/uae.jpg" alt="">
+                    <div class="country">
+                        <span>UAE</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/luxembourg.jpg" alt="">
+                    <div class="country">
+                        <span>luxumbourg</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/newzealand.jpg" alt="">
+                    <div class="country">
+                        <span>newzealand</span>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="desti-image"><img src="/SIMRAN/image/neatherland.jpg" alt="">
+                    <div class="country">
+                        <span>netherlands</span>
+                    </div>
+                </div>
             </div>
         </div>
-       
       
-      </section>
-      
-    <!-- <iframe
+
+  </section>
+
+  <!-- <iframe
       src="https://widgets.sociablekit.com/google-reviews/iframe/25496599"
       frameborder="0"
       width="100%"
       height="1000"
     ></iframe> -->
-    <section class="colored-section container-fluid" id="testimonials">
-      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="testimonial-text">
-              I got my mauritius visa the global education is good to go for abroad studies and vis
-              a they will take time for process but they will definitely help you in your visa
-            </h2>
-            <img
-              class="testimonial-image"
-              src="public/images/student 1.png"
-              alt="student-profile"
-            />
-            <p>Salman Malkani</p>
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">
-              My USA visa process went very smoothly with GES. Tanvir maam, Mona maam & Rahul sir were very cooperative, friendly, and professional. 
-          The visa interview guidance was particularly valuable. Special thanks to Ali Sir and Zoha Maam for their continuous support throughout the process. Thankyou GES, I appreciate it.
-            </h2>
-            <img
-              class="testimonial-image"
-              src="public/images/student 2.png"
-              alt="lady-profile"
-            />
-            <p>Sameerjeet Singh Chhabra</p>
-          </div>
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">
-              My USA visa process went very smoothly with GES. Mohsin sir , Mona maam sajay sir were very cooperative, friendly, and professional. The visa interview guidance was particularly valuable. Special thanks to Ali 
-              Sir and Zoha Maam for their continuous support throughout the process. Thankyou GES, I appreciate   </h2>
-            <img
-              class="testimonial-image"
-              src="public/images/student 3.png"
-              alt="lady-profile"
-            />
-            <p>Eram Kureshi</p>
-          </div>
-          
-          
-
-          
-          
+  <section class="colored-section container-fluid" id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">
+            I got my mauritius visa the global education is good to go for abroad studies and vis
+            a they will take time for process but they will definitely help you in your visa
+          </h2>
+          <img class="testimonial-image" src="public/images/student 1.png" alt="student-profile" />
+          <p>Salman Malkani</p>
         </div>
-        <a
-          class="carousel-control-prev car"
-          href="#testimonial-carousel"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a
-          class="carousel-control-next"
-          href="#testimonial-carousel"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon"></span>
-        </a>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            My USA visa process went very smoothly with GES. Tanvir maam, Mona maam & Rahul sir were very cooperative,
+            friendly, and professional.
+            The visa interview guidance was particularly valuable. Special thanks to Ali Sir and Zoha Maam for their
+            continuous support throughout the process. Thankyou GES, I appreciate it.
+          </h2>
+          <img class="testimonial-image" src="public/images/student 2.png" alt="lady-profile" />
+          <p>Sameerjeet Singh Chhabra</p>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            My USA visa process went very smoothly with GES. Mohsin sir , Mona maam sajay sir were very cooperative,
+            friendly, and professional. The visa interview guidance was particularly valuable. Special thanks to Ali
+            Sir and Zoha Maam for their continuous support throughout the process. Thankyou GES, I appreciate </h2>
+          <img class="testimonial-image" src="public/images/student 3.png" alt="lady-profile" />
+          <p>Eram Kureshi</p>
+        </div>
+
+
+
+
+
       </div>
-    </section>
+      <a class="carousel-control-prev car" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
 
-    <!-- Press -->
-
-      
+  <!-- Press -->
 
 
-    <!-- Call to Action -->
 
 
-    <!-- Footer -->
+  <!-- Call to Action -->
 
-    <footer class="white-section" id="footer">
-      <div class="container-fluid">
-        <a
-          href="https://www.facebook.com/p/Global-Educational-Services-100057281296683/"
-          target="_blank"
-        >
-          <i class="social-icon fa-brands fa-facebook-f fa-beat fa-xl"></i>
-        </a>
-        <a href="https://www.instagram.com/international_studies_mumbai2/" target="_blank">
-          <i class="social-icon fa-brands fa-instagram fa-beat fa-xl"></i>
-        </a>
-        <a href="" target="_blank">
-          <i class="social-icon fa-brands fa-youtube fa-beat fa-xl"></i>
-        </a>
-        <a href="mailto:global@gesintl.in">
-          <i class="social-icon fa-solid fa-envelope fa-beat fa-xl"></i>
-        </a>
 
-        <a href="tel:+91-08600121024">
-          <i class="social-icon fa-solid fa-phone fa-beat fa-xl"></i>
-        </a>
+  <!-- Footer -->
 
-        <p>© Copyright 2021 | All Rights Reserved</p>
-      </div>
-    </footer>
-  </body>
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/p/Global-Educational-Services-100057281296683/" target="_blank">
+        <i class="social-icon fa-brands fa-facebook-f fa-beat fa-xl"></i>
+      </a>
+      <a href="https://www.instagram.com/international_studies_mumbai2/" target="_blank">
+        <i class="social-icon fa-brands fa-instagram fa-beat fa-xl"></i>
+      </a>
+      <a href="https://youtube.com/@GlobalEducationalService-rk5vf?si=joYsmsurE-XDPJF_" target="_blank">
+        <i class="social-icon fa-brands fa-youtube fa-beat fa-xl"></i>
+      </a>
+      <a href="mailto:global@gesintl.in">
+        <i class="social-icon fa-solid fa-envelope fa-beat fa-xl"></i>
+      </a>
+
+      <a href="tel:+91-08600121024">
+        <i class="social-icon fa-solid fa-phone fa-beat fa-xl"></i>
+      </a>
+
+      <p>© Copyright 2021 | All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+<!-- ^^  form code  ^^ -->
+</body>
+<script src="notification.js"></script>
+
+</html>
+
 </html>
