@@ -12,6 +12,7 @@
     "vite": "^5.4.14"
   },
   "dependencies": {
-    "create-vite": "^6.3.1"
+    "create-vite": "^6.3.1",
+    "vite-plugin-vercel": "^9.0.5"
   }
 }
