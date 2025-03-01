@@ -1,11 +1,18 @@
-import { defineConfig } from 'vite';
-import vercel from 'vite-plugin-vercel';
- 
+
+
+
+import { defineConfig } from "vite";
+import { resolve } from "path";
+
 export default defineConfig({
-  server: {
-    port: process.env.PORT,
-  },
-  plugins: [vercel()],
+    build:{
+        rollupOptions:{
+            input: {
+                main: resolve(__dirname, "index.html"),
+                service: resolve(__dirname, "service.html"),
+                contact: resolve(__dirname, "contact.html"),
+         
+            },
+        },
+    },
 });
-
-
