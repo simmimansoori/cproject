@@ -2,36 +2,6 @@ function closeForm() {
   $(".form-popup-bg").removeClass("is-visible");
 }
 
-// function closeNoti() {
-//   $(".noti-popup-bg").removeClass("is-visible");
-// }
-
-// $(document).ready(function ($) {
-
-//   $(".noti-popup-bg").addClass("is-visible");
-
-//   $(".form-popup-bg").on("click", function (event) {
-//     if (
-//       $(event.target).is(".noti-popup-bg") ||
-//       $(event.target).is("#btnCloseForm")
-//     ) {
-//       event.preventDefault();
-//       $(this).removeClass("is-visible");
-//     }
-//   });
-// });
-
-// $(document).ready(function(){
-//   // Delay the action by 10000ms
-//   setTimeout(function(){
-//      // Display the div containing the class "bottomdiv"
-//      $(".bottomdiv").show();
-//   }, 10000);
-// });
-
-
-
-
 $(document).ready(function ($) {
   /* Contact Form Interactions */
   $("#btnOpenForm").on("click", function (event) {
@@ -47,6 +17,12 @@ $(document).ready(function ($) {
   });
 
   $("#btnOpenForm2").on("click", function (event) {
+    event.preventDefault();
+
+    $(".form-popup-bg").addClass("is-visible");
+  });
+
+  $("#btnOpenForm3").on("click", function (event) {
     event.preventDefault();
 
     $(".form-popup-bg").addClass("is-visible");
@@ -91,14 +67,14 @@ const phoneInput = window.intlTelInput(phoneInputField, {
     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
 });
 
-$(document).ready(function(){
-  setTimeout(function(){
-     $(".notidiv ").show();
-   }, 10000);
+$(document).ready(function () {
+  setTimeout(function () {
+    $(".notidiv ").show();
+  }, 10000);
 });
 
-$(document).ready(function() {
-  $('#closeButton').on('click', function(e) { 
-      $('.notidiv').remove(); 
+$(document).ready(function () {
+  $("#closeButton").on("click", function (e) {
+    $(".notidiv").remove();
   });
 });

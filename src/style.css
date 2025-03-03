@@ -339,13 +339,19 @@ a {
   */gap: 0.3rem;
 
 }
+.uni-img{
+  width: 13%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+}
 .clg-details{
-  background-color: #e936aa;
+  background-color: #212020;
   color: white;
   padding: 0.1rem 0.8rem;
   width: auto;
   height: 10%;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
   & h2{
     font-size: large;
@@ -386,7 +392,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 /* 
 .marquee div {
@@ -744,179 +750,8 @@ footer a {
   color: #fc6bc9;
 }
 
-@media (width <= 1380px) {
-  #title {
-    text-align: center;
-  }
 
-  .title-image {
-    width: 50%;
-  }
 
-  .big-heading {
-    font-size: 3.5rem;
-  }
-  .navbar-nav {
-    margin: 9px;
-  }
-  .nav-item {
-    padding-left: 1px;
-  }
-}
-
-@media (width <= 1220px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    width: 50%;
-  }
-
-  .big-heading {
-    font-size: 3rem;
-  }
-
-  .promotion-text {
-    padding: 3rem;
-    display: flex;
-    align-items: center;
-    & p {
-      font-size: 1.5rem;
-    }
-  }
-  .call-to-action {
-    .button-29 {
-      width: 13rem;
-    }
-  }
-}
-
-@media (width <= 1100px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    width: 50%;
-  }
-
-  .big-heading {
-    font-size: 2.5rem;
-  }
-
-  .promotion-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    -moz-column-gap: 20px;
-    column-gap: 20px;
-  }
-
-  .promotion-video {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 0;
-    padding: 4rem;
-  }
-
-  .card-body p {
-    font-size: 1rem;
-  }
-
-  .promotion-text {
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    & p {
-      font-size: 1.4rem;
-    }
-  }
-  .call-to-action {
-    .button-29 {
-      width: 12rem;
-
-      font-size: 1.1rem;
-    }
-  }
-}
-
-@media (width <= 993px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    display: none;
-  }
-
-  .big-heading {
-    font-size: 4.5rem;
-    line-height: 5rem;
-  }
-
-  p {
-    font-size: 1.5rem;
-  }
-
-  .promotion-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    -moz-column-gap: 20px;
-    column-gap: 20px;
-  }
-
-  .promotion-video {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 0;
-    /* padding: 4rem; */
-  }
-
-  .promotion-text {
-    padding: 2rem;
-    display: flex;
-    align-items: center;
-    & p {
-      font-size: 1rem;
-    }
-  }
-  .call-to-action {
-    padding: 0 5rem;
-    .button-29 {
-      width: 13rem;
-    }
-
-    /* .promotion{
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-  
-    .liquid p{
-      
-      font-size: 1rem;
-    } */
-  }
-
-  .notidiv {
-    /* display: flex; */
-
-    padding: 50rem 0;
-
-    & p {
-      font-size: 0.8rem;
-    }
-    & .text-focus-in {
-      width: 10%;
-      font-size: 1rem;
-      padding: 1 0;
-    }
-  }
-}
 
 .intl-tel-input {
   /* width: 10%; */
@@ -970,7 +805,7 @@ footer a {
   box-shadow: #eca7e04d 0px 19px 38px, #ca78ac38 0px 15px 12px;
   /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
   width: 25%;
-  max-width: 700px;
+  /* max-width: 900px; */
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -1061,81 +896,6 @@ footer a {
   -o-border-radius: 8px;
 }
 
-@media (width <= 768px) {
-  #title {
-    text-align: center;
-    padding-bottom: 2rem;
-  }
-
-  .title-image {
-    display: none;
-  }
-
-  .big-heading {
-    font-size: 2.1rem;
-    line-height: 3rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  .promotion-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    -moz-column-gap: 20px;
-    column-gap: 20px;
-  }
-
-  .testimonial-text {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .testimonial-image {
-    width: 20%;
-  }
-
-  #testimonials p {
-    font-size: 1rem;
-  }
-
-  .card p {
-    font-size: 0.7rem;
-    line-height: 1.5;
-  }
-
-  .pricing-column {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #pricing {
-    padding: 50px;
-  }
-
-  .nav-link {
-    font-size: 1.1rem;
-  }
-
-  .call-to-action {
-    padding: 0;
-
-    .button-29 {
-      width: 10rem;
-
-      font-size: 1rem;
-    }
-  }
-
-  .call-us {
-    right: 4%;
-    width: 14%;
-    height: 8%;
-  }
-}
 
 /* .notification {
   background-color: #c685af;
@@ -1276,4 +1036,276 @@ footer a {
   -moz-transform: scale(0.9);
   -ms-transform: scale(0.9);
   -o-transform: scale(0.9);
+}
+
+
+@media (width <= 1380px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 50%;
+  }
+
+  .big-heading {
+    font-size: 3.5rem;
+  }
+  .navbar-nav {
+    margin: 9px;
+  }
+  .nav-item {
+    padding-left: 1px;
+  }
+ 
+}
+
+@media (width <= 1220px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 50%;
+  }
+
+  .big-heading {
+    font-size: 3rem;
+  }
+
+  .promotion-text {
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    & p {
+      font-size: 1.5rem;
+    }
+  }
+  .call-to-action {
+    .button-29 {
+      width: 13rem;
+    }
+  }
+  .form-container{
+
+    width: 30%;
+    /* margin: 0; */
+  }
+  .form-content {
+    /* width: 130%; */
+  }
+}
+
+@media (width <= 1100px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 50%;
+  }
+
+  .big-heading {
+    font-size: 2.5rem;
+  }
+
+  .promotion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .promotion-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 4rem;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+  }
+
+  .promotion-text {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    & p {
+      font-size: 1.4rem;
+    }
+  }
+  .call-to-action {
+    .button-29 {
+      width: 12rem;
+
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (width <= 993px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    display: none;
+  }
+
+  .big-heading {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .promotion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .promotion-video {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    /* padding: 4rem; */
+  }
+
+  .promotion-text {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    & p {
+      font-size: 1rem;
+    }
+  }
+  .call-to-action {
+    padding: 0 5rem;
+    .button-29 {
+      width: 13rem;
+    }
+
+  }
+
+  .notidiv {
+    /* display: flex; */
+
+    padding: 1.5rem 1rem;
+    /* width: 70%; */
+
+    & p {
+      font-size: 0.8rem;
+    }
+    & .text-focus-in {
+      width: 10rem;
+      font-size: 1rem;
+      padding: 0;
+    }
+  }
+
+  .form-container{
+
+    width: 400px;
+
+    & .form-control{
+      height: 5%;
+      font-size: 0.7rem;
+    }
+
+  }
+  
+}
+
+@media (width <= 768px) {
+  #title {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .title-image {
+    display: none;
+  }
+
+  .big-heading {
+    font-size: 2.1rem;
+    line-height: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .promotion-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+  }
+
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-image {
+    width: 20%;
+  }
+
+  #testimonials p {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+
+  .pricing-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #pricing {
+    padding: 50px;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+  }
+
+  .call-to-action {
+    padding: 0;
+
+    .button-29 {
+      width: 10rem;
+
+      font-size: 1rem;
+    }
+  }
+
+  .call-us {
+    right: 4%;
+    width: 14%;
+    height: 8%;
+  }
+
+  .form-container{
+
+    width: 300px;
+
+  }
+
+
 }

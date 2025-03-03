@@ -32,101 +32,11 @@
           <p>
             Join Us Today for a Journey Beyond Boundaries!
           </p>
-          <button class="button-29"><a href="service.html">Our Services</a></button>
+          <button class="button-29"><a href="./service.html">Our Services</a></button>
         </div>
 
       </section>
-
-      <!-- <section class="projects" id="projects">
-        <h5>MY</h5>
-        <h2>
-          <span>P</span><span>R</span><span>O</span><span>J</span><span>E</span><span>C</span><span>T</span><span>S</span>
-        </h2>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-         
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <img src="images/usa.webp" alt="" />
-                <div class="text">
-                  <div class="project-name">USA</div>
-                  <div class="project-description">
-                    Unlock Your Potential in the Land of Opportunity! 🇺🇸
-                    <br />
-                    Where Dreams Become Reality! 🌟 <br />
-                    Discover Your American Adventure Today! 🏞️
-                  </div>
-                  <a href="#">Services</a>
-                </div>
-              </div>
-            </div>
-     
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <img src="images/canada.webp" alt="" />
-                <div class="text">
-                  <div class="project-name">CANADA</div>
-                  <div class="project-description">
-                    Experience Diversity Like Never Before! 🍁 <br />
-                    Where Nature and Culture Collide! 🏞️ <br />
-                    Your Canadian Journey Awaits! 🇨🇦
-                  </div>
-                  <a href="#">Services</a>
-                </div>
-              </div>
-            </div>
-
-      
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <img src="images/new-zealand.webp" alt="" />
-                <div class="text">
-                  <div class="project-name">New Zealand</div>
-                  <div class="project-description">
-                    Natural Wonders 🏞️ Adventure Awaits! 🇳🇿 <br />
-                    Where Beauty Meets Adventure! 🌿🏔️ <br />
-                    Explore the Land of the Long White Cloud! ☁️🌟
-                  </div>
-                  <a href="#">Services</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <img src="images/poland.webp" alt="" />
-                <div class="text">
-                  <div class="project-name">POLADN</div>
-                  <div class="project-description">
-                    Explore Centuries of History and Tradition! 🏰 <br />
-                    Where Old World Charm Meets Modernity! 🇵🇱 <br />
-                    Discover the Heart of Europe! ❤️
-                  </div>
-                  <a href="#">Services</a>
-                </div>
-              </div>
-            </div>
-
-           
-            <div class="swiper-slide">
-              <div class="slide-content">
-                <img src="images/australia.webp" alt="" />
-                <div class="text">
-                  <div class="project-name">AUSTRALIA</div>
-                  <div class="project-description">
-                    Embark on an Adventure Down Under! 🦘 <br />
-                    Where Every Day is a New Discovery! 🌏 <br />
-                    Experience the Aussie Spirit Today! 🇦🇺
-                  </div>
-                  <a href="#">Services</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
-      <section class="contact" id="contact">
+   <section class="contact" id="contact">
         <div class="left-contact">
         
           <h2>
@@ -151,15 +61,16 @@
         </div>
 
         <div class="right-contact">
-          <form action="" method="post">
+          <form action="https://formspree.io/f/xzzdnvzd"
+          method="POST">
             <h2>
               <span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span> &nbsp;
               <span>F</span><span>O</span><span>R</span><span>M</span>
             </h2>
-            <input type="text" placeholder="Your name" name="name" />
-            <input type="email" placeholder="Your e-mail" name="email" />
-            <input type="number" placeholder="Your phone" name="number" />
-            <input type="text" placeholder="Message" name="message" />
+            <input type="text" placeholder="Your name" name="name" autocomplete="off" required/>
+            <input type="email" placeholder="Your e-mail" name="email" autocomplete="off" required/>
+            <input type="number" placeholder="Your phone" name="number" autocomplete="off" required/>
+            <input type="text" placeholder="Message" name="message" autocomplete="off" required/>
             <button type="submit" name="submit">SEND MESSAGE</button>
             </forma>
         </div>
@@ -170,181 +81,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script>
-    gsap.registerPlugin(ScrollTrigger);
 
-    var swiper = new Swiper(".swiper", {
-      effect: "coverflow",
-      grabCursor: true,
-      centeredSlides: true,
-      initialSlide: 2,
-      coverflowEffect: {
-        rotate: 0,
-        stretch: 0,
-        depth: 100,
-        modifier: 3,
-        slideShadows: false,
-      },
-      loop: false,
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 2,
-        },
-        1024: {
-          slidesPerView: 3,
-        },
-        1560: {
-          slidesPerView: 3,
-        },
-      },
-    });
 
-    gsap.to(".preloader .stripe", {
-      y: -1000,
-      stagger: 0.2,
-      ease: "power2.inOut",
-    });
-
-    gsap.to(".preloader", {
-      delay: 2,
-      display: "none",
-    });
-
-    gsap.from("nav", {
-      y: 50,
-      opacity: 0,
-      stagger: 0.1,
-      delay: 1.5,
-      ease: "power2.inOut",
-    });
-
-    gsap.from(".hero h1 span", {
-      y: 100,
-      opacity: 0,
-      stagger: 0.1,
-      delay: 1.5,
-      ease: "power2.inOut",
-    });
-
-    gsap.from(".hero h5", {
-      opacity: 0,
-      stagger: 0.1,
-      duration: 1,
-      delay: 2.5,
-      ease: "power2.inOut",
-    });
-
-    gsap.from(".hero .left-sidebar a", {
-      opacity: 0,
-      x: 100,
-      stagger: 0.1,
-      delay: 3.5,
-      ease: "power2.inOut",
-    });
-
-    gsap.from(".hero .right-sidebar", {
-      opacity: 0,
-      stagger: 0.1,
-      delay: 4.5,
-      ease: "power2.inOut",
-    });
-
-    ScrollTrigger.create({
-      trigger: ".projects",
-      animation: gsap.from(".projects h2 span", {
-        y: 50,
-        opacity: 0,
-        stagger: 0.05,
-      }),
-      start: "top 50%",
-      end: "bottom top",
-    });
-    ScrollTrigger.create({
-      trigger: ".projects",
-      animation: gsap.from(".projects .swiper-slide", {
-        y: 200,
-        opacity: 0,
-        stagger: 0.1,
-        duration: 1,
-      }),
-      start: "top 50%",
-      end: "bottom top",
-    });
-    ScrollTrigger.create({
-      trigger: ".contact",
-      animation: gsap.from(".left-contact h2 span", {
-        y: 50,
-        opacity: 0,
-        stagger: 0.05,
-      }),
-      start: "top 50%",
-      end: "bottom top",
-    });
-    ScrollTrigger.create({
-      trigger: ".contact",
-      animation: gsap.from(".right-contact h2 span", {
-        y: 50,
-        opacity: 0,
-        stagger: 0.05,
-      }),
-      start: "top 50%",
-      end: "bottom top",
-    });
-    ScrollTrigger.create({
-      trigger: ".contact",
-      animation: gsap.from(
-        ".right-contact form input, .right-contact form button", {
-          y: 50,
-          opacity: 0,
-          stagger: 0.05,
-        }
-      ),
-      start: "top 50%",
-      end: "bottom top",
-    });
-    ScrollTrigger.create({
-      trigger: ".contact",
-      animation: gsap.from(
-        ".left-contact p, .left-contact h4, .left-contact small", {
-          y: 50,
-          opacity: 0,
-          stagger: 0.05,
-        }
-      ),
-      start: "top 50%",
-      end: "bottom top",
-    });
-
-    const hamburgerMenu = document.querySelector(".hamburger-menu");
-    const closeButton = document.querySelector(".close-btn");
-    const links = document.querySelector(".links");
-
-    document.addEventListener("DOMContentLoaded", function() {
-      const hamburgerMenu = document.querySelector(".hamburger-menu");
-      const links = document.querySelector(".links");
-
-      hamburgerMenu.addEventListener("click", () => {
-        links.classList.toggle("open");
-      });
-
-      // Add event listeners to each link inside .links
-      links.querySelectorAll("a").forEach((link) => {
-        link.addEventListener("click", () => {
-          links.classList.remove("open"); // Close the menu when a link is clicked
-        });
-      });
-    });
-
-    // Add event listener to the close button
-    if (closeButton) {
-      closeButton.addEventListener("click", () => {
-        links.classList.remove("open"); // Close the menu when the close button is clicked
-      });
-    }
-  </script>
 </body>
 
 </html>

@@ -197,9 +197,10 @@ section {
 
 .hero h1 {
   display: inline-block;
+  text-transform: uppercase;
   text-align: center;
-  font-size: 75px;
-  font-weight: 900;
+  font-size: 4rem;
+  font-weight: 700;
   color: black;
   text-shadow: 20px 20px 20px rgba(167, 161, 161, 0.6);
 }
@@ -277,6 +278,7 @@ section {
   outline: none;
   color: #fff;
   font-family: "Ubuntu", sans-serif;
+
 }
 
 .right-contact button {
@@ -305,7 +307,7 @@ a{
 }
 @media screen and (max-width: 900px) {
   .content h1 {
-    font-size: 60px;
+    font-size: 3rem;
    
   }
   p{

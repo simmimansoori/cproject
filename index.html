@@ -119,36 +119,37 @@
       <button id="btnCloseForm" class="close-button">X</button>
       <h3>Unlock your potential now!</h3>
 
-      <form action="./backend/src/models/contact.js" method="POST">
+      <form   action="https://formspree.io/f/xzzdnvzd"
+      method="POST"/> 
         <div class="form-content">
           <div class="form-group">
             <i class="fa-solid fa-user fa-2xl mr-1 " style="color: #fbb1e1; width: 30px;
     height: 25px;"></i>
-            <input type="text" class="form-control" placeholder="Name" name="name"/>
+            <input type="text" class="form-control" placeholder="Name" name="name" required autocomplete="off"/>
           </div>
 
           <div class="form-group">
             <i class="fa-solid fa-location-dot fa-2xl mr-1" style="color: #fbb1e1;"></i>
-            <input type="tel" id="mobile_code" class="form-control" name="phone">
+            <input type="tel" id="mobile_code" class="form-control" name="phone" required autocomplete="off" />
           </div>
 
           <div class="form-group">
 
             <i class="fa-solid fa-envelope fa-2xl " style="color: #fbb1e1; width: 30px;
     height: 25px;"></i>
-            <input class="form-control" type="text" placeholder="E-Mail Address" name="email"/>
+            <input class="form-control" type="email" placeholder="E-Mail Address" name="email" required  autocomplete="off"/>
           </div>
           <div class="form-group">
 
             <i class="fa-solid fa-question fa-2xl mr-1" style="color: #fbb1e1;"></i>
-            <input class="form-control" type="text" placeholder="Interested In ?" name="intrest" />
+            <input class="form-control" type="text" placeholder="Interested In ?" name="message" required autocomplete="off"/>
           </div>
           <div class="form-group">
-            <i class="fa-solid fa-location-dot fa-2xl" style="color: #fbb1e1;"></i>
-            <input class="form-control" type="text" placeholder="Your City"  name="city"/>
+            <i class="fa-solid fa-location-dot fa-2xl" style="color: #fbb1e1;" ></i>
+            <input class="form-control" type="text" placeholder="Your City"  name="city" required autocomplete="off"/>
           </div>
        
-          <button class="button-29 book" value="Contact">Book a Call</button>
+          <button class="button-29 book" value="Contact" type="submit">Book a Call</button>
    
         </div>
       </form>
@@ -167,7 +168,7 @@
         <!-- <h3>Unlock your potential now!</h3> -->
         <p style="color: #fff;" > Don't Leave! Book A Call for Career Guidance & Counseling! </p>
 
-        <button class="button-29 text-focus-in" id="btnOpenForm1" role="button">
+        <button class="button-29 text-focus-in" id="btnOpenForm3" role="button">
 
           Book a call
         </button>
@@ -309,52 +310,86 @@
   </div>
 
   <div class="pink ">
-    <h1 class="section-heading" style="margin-top: 3%;">
-  Our Students Are Studying In Worlds Top Universities</h1>
+    <h2 class="section-heading" style="margin-top: 3%; text-transform: uppercase; padding-top: 1rem;">
+  Our Students Are Studying In Worlds Top Universities</h2>
 
   <div class="top-clg">
     <a href="contact.html">
-      <div class="top-clg-div ">
-        <div class="clg-details">
-          <h2 class="clg-name">Harvard University </h2>
-          <p class="clg-rank">QS Ranking - 4 </p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">University of California Berkeley</h2>
-          <p class="clg-rank">QS Ranking - 12</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">Stanford University</h2>
-          <p class="clg-rank">QS Ranking - 4</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">Yale University </h2>
-          <p class="clg-rank">QS Ranking - 23</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">Massachusetts institute of technology</h2>
-          <p class="clg-rank">QS Ranking - 1</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">University of Oxford</h2>
-          <p class="clg-rank">QS Ranking - 3</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">University of Cambridge</h2>
-          <p class="clg-rank">QS Ranking - 5</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">Princeton UNIVERSITY</h2>
-          <p class="clg-rank">QS Ranking - 22</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">University college london</h2>
-          <p class="clg-rank">QS Ranking - 9</p>
-        </div>
-        <div class="clg-details">
-          <h2 class="clg-name">California institute of technology</h2>
-          <p class="clg-rank">QS Ranking - 10</p>
-        </div>
+      <!-- <div class="top-clg-div "> -->
+        <!-- <div class="clg-details"> -->
+          <span >
+          <img class="uni-img" src="./public/images/Harvard_University_logo.svg.png" alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/oxford.png" alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/caltech-new-logo.png" alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/imgbin-stanford-university.jpg" alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/manchester.jpg" alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/MIT-Logo.png" alt="">
+        </span>
+
+        <span >
+          <img class="uni-img" src="./public/images/University_of_Cambridge-Logo.png" alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/2708-universite-nationale-singapour-nus.png"  alt="">
+        </span>
+     
+
+        <span >
+          <img class="uni-img" src="./public/images/princeton-university7760.jpg"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/UniversityofPennsylvania_logo.png"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/ethz_logo_black.png"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/cornell.png"  alt="">
+
+        </span>
+
+        <span >
+          <img class="uni-img" src="./public/images/Imperial_College_London_new_logo.png"  alt="">
+          
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/University-of-Chicago-Logo.jpg"  alt="">
+        </span>
+
+        <span >
+          <img class="uni-img" src="./public/images/Tsinghua.jpg"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/london.png"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/Edinburgh.png"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/Peking.png"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/torronto.png"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/johns-hopkins-university-logo-png.png"  alt="">
+        </span>
+        <span >
+          <img class="uni-img" src="./public/images/University_of_Michigan_Logo.png"  alt="">
+        </span>
+        <!-- </div> -->
+     <!-- <div class="clg-details">
+   
         <div class="clg-details">
           <h2 class="clg-name">Columbia University</h2>
           <p class="clg-rank">QS Ranking - 34</p>
@@ -423,17 +458,17 @@
           <h2 class="clg-name">Duke University</h2>
           <p class="clg-rank">QS Ranking - 61</p>
         </div>
-     
+      -->
         
         
-      </div>
+      <!-- </div> -->
     </div>
   </a>
 
 
   <div class="pink ">
     <h1 class="section-heading" style="margin-top: 3%;">
-  Popular Courses </h1>
+  POPULAR COURSES </h1>
   <p>A top-in-demand major, with many job opportunities </p>
 
   <div class="top-clg">
@@ -843,6 +878,79 @@
           <p>Eram Kureshi</p>
         </div>
 
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            My daughter Suhaina got usa visa for 5 years thanks to global educational services.
+          </h2>
+          <img class="testimonial-image" src="public/images/SUHAINA.png" alt="lady-profile" />
+          <p>Mohammed Fathima</p>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            Hii guys I am happy I got my USA VISA. I would like to thanks Global Education Services & all staff who was very supportive & helpful who motivated me to get my USA Visa. Which I successfully achieve it and I would like to give special thanks to Ali Sir, Tanvir Mam, Zoha Mam, Mohsin Sir, Mona Mam and all other staff who help me a lot and once again special thanks to Ali Sir and Zoha Mam their experience really help me to crack my USA VISA Interview. T
+            hank You Global Education Services..
+          </h2>
+          <img class="testimonial-image" src="public/images/RAHIM.png" alt="lady-profile" />
+          <p>Rahim deewani</p>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            Global Education Services has established a high standard in helping students study abroad.
+            My experience with them was excellent. Mohsin Sir , Zoha Ma'am, Ali Sir, Mona Ma'am , and the whole team are experts who are dedicated to their clients' success.
+            They offered personalized guidance that helped me make informed decisions at every stage. Their professionalism and support were crucial in helping me reach my educational goals.
+            I highly recommend them for their valuable service and dedication.
+          </h2>
+          <img class="testimonial-image" src="public/images/abdul.png" alt="lady-profile" />
+          <p> Abdul Rehman Shaikh </p>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            Thanks to Global Education service team, for getting approved my 5 years USA student visa. Specially I would like to thank Mohsin sir, for boosting  up my confident level and helping me from all the ways. Secondly  thanks  to Ali sir, Zoya mam and Mona mam, who trained me so well  that I was very well confident while having my visa interview. And even sanjay sir and  sachin sir  who always updated me regarding my submission of documents. 
+            God bless you all with all sucess and happiness 💐💐💐
+            </h2>
+          <img class="testimonial-image" src="public/images/santosh.png" alt="lady-profile" />
+          <p>Santosh Shetty</p>
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            I recently obtained my US visa with the invaluable help of Mohsin Sir, Ali Sir, Zoha Ma'am, and Mona Ma'am. They were all incredibly cooperative and 
+            supportive throughout the entire process. Despite a short timeframe and without having to take the IELTS, they ensured a smooth and efficient process. They also provided excellent visa training, which was extremely beneficial. I highly recommend their services to anyone seeking visa assistance!
+          </h2>
+          <img class="testimonial-image" src="public/images/fardeen.png" alt="lady-profile" />
+          <p>Fardeen Qureshi</p>
+        </div>
+
+
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            Global Education Services exceeded my expectations in every way possible. Ali Sir, Mohsin Bhai, Zoha Ma'am, Mona Ma'am, and their team displayed unparalleled professionalism and dedication throughout my journey.
+            Their expertise and personalised guidance were invaluable in steering me towards the right educational path. I can confidently say they are the best in the business, offering comprehensive support and unwavering commitment to their clients' success.
+            And I wholeheartedly recommend Global Education Services to anyone seeking top-notch educational consultancy.
+
+            
+          </h2>
+          <img class="testimonial-image" src="public/images/ayaan.png" alt="lady-profile" />
+          <p>Ayaan Shaikh</p>
+        </div>
+
+        
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">
+            GI’m very happy to be part of global team I got my USA f1 visa for 5 years and the process was very smooth and sweet every members of team specially Mohsin sir who consulted me and helped me in everything during the process because of his efforts and motivation I undertook the USA process and also especially Ali sir, zoha mam who helped me in training for interview and Rahul,abhishek,Sanjay,mona mam who undertook documentation work very smoothly and also thanks to tanvir mam and rizvi sir who guided me
+             for funds related procedures do opt for global educational services they are best in achieving your  dreams ☺️😇😇
+            
+          </h2>
+          <img class="testimonial-image" src="public/images/kaleem.png" alt="lady-profile" />
+          <p>Kaleem Dabilkar</p>
+        </div>
+
+       
+
+
 
 
 
@@ -894,6 +1002,8 @@
 <!-- ^^  form code  ^^ -->
 </body>
 <script src="notification.js" type="module"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 
 </html>
 
