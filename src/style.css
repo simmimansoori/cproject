@@ -1493,4 +1493,8 @@ footer a {
   .contents , .value{
     font-size: 80px;
   }
+
+  h1{
+    font-size: 25px;
+  }
 }
