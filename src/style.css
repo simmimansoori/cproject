@@ -1481,10 +1481,16 @@ footer a {
 
   }
   .contents , .value{
-    font-size: 65px;
+    font-size: 70px;
   }
   .why-global{
     margin-left: 4rem;
   }
 
+}
+
+@media (width <= 400px){
+  .contents , .value{
+    font-size: 80px;
+  }
 }
